@@ -1,0 +1,280 @@
+- generic [ref=e1]:
+  - link "Skip to guide" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - link "Orbis Field Guide home" [ref=e4] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e8]:
+        - generic [ref=e9]: Orbis
+        - text: Field Guide
+    - button "Toggle navigation" [expanded] [active] [ref=e297] [cursor=pointer]
+    - navigation "Guide sections" [ref=e10]:
+      - link "Overview" [ref=e11] [cursor=pointer]:
+        - /url: "#overview"
+      - link "Gameplay" [ref=e12] [cursor=pointer]:
+        - /url: "#gameplay"
+      - link "Characters" [ref=e13] [cursor=pointer]:
+        - /url: "#characters"
+      - link "Tips" [ref=e14] [cursor=pointer]:
+        - /url: "#tips"
+      - link "FAQ" [ref=e15] [cursor=pointer]:
+        - /url: "#faq"
+  - main [ref=e19]:
+    - region [ref=e20]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - paragraph [ref=e25]: New player handbook · No major spoilers
+          - 'heading "DragonSword: Awakening" [level=1] [ref=e27]':
+            - generic [ref=e28]: "DragonSword:"
+            - text: Awakening
+          - paragraph [ref=e29]: Master the tag-team rhythm, build a party that actually works, and cross the Continent of Orbis without wasting your best resources.
+          - generic [ref=e30]:
+            - link "Start the guide" [ref=e31] [cursor=pointer]:
+              - /url: "#gameplay"
+            - link "Jump to progression tips" [ref=e32] [cursor=pointer]:
+              - /url: "#tips"
+        - complementary "Game quick facts" [ref=e33]:
+          - paragraph [ref=e34]: Adventurer dossier
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - term [ref=e37]: World
+              - definition [ref=e38]: Continent of Orbis
+            - generic [ref=e39]:
+              - term [ref=e40]: Combat
+              - definition [ref=e41]: Real-time tag team
+            - generic [ref=e42]:
+              - term [ref=e43]: Roster
+              - definition [ref=e44]: 19 playable heroes
+            - generic [ref=e45]:
+              - term [ref=e46]: Platform
+              - definition [ref=e47]: PC · Steam
+          - paragraph [ref=e48]: Released July 22, 2026 · Developed by Hound13 Inc.
+    - region "On this page" [ref=e52]:
+      - generic [ref=e54]:
+        - link "01 Know the world" [ref=e55] [cursor=pointer]:
+          - /url: "#overview"
+          - generic [ref=e56]: "01"
+          - text: Know the world
+        - link "02 Learn the loop" [ref=e57] [cursor=pointer]:
+          - /url: "#gameplay"
+          - generic [ref=e58]: "02"
+          - text: Learn the loop
+        - link "03 Build a party" [ref=e59] [cursor=pointer]:
+          - /url: "#characters"
+          - generic [ref=e60]: "03"
+          - text: Build a party
+        - link "04 Clear the path" [ref=e61] [cursor=pointer]:
+          - /url: "#tips"
+          - generic [ref=e62]: "04"
+          - text: Clear the path
+        - link "05 Find an answer" [ref=e63] [cursor=pointer]:
+          - /url: "#faq"
+          - generic [ref=e64]: "05"
+          - text: Find an answer
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Game overview
+        - heading "A bright world with a dragon-shaped shadow" [level=2] [ref=e69]
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: "DragonSword: Awakening is an anime-style open-world action RPG set on the Continent of Orbis, sixty years after a legendary dragon last threatened the land."
+          - paragraph [ref=e73]:
+            - text: You play as
+            - strong [ref=e74]: Lute
+            - text: ", a young traveler drawn into mercenary life after meeting Johnny and the Elf Castella. What begins as a lively journey through human civilization soon grows into a continent-spanning fight against an awakened ancient threat."
+          - paragraph [ref=e75]: "The game mixes free-roaming exploration, story quests, dungeons, cooking, mounts and large enemy encounters with a combat system built around switching between heroes at the right moment. It looks like a character collector, but the Steam edition is a premium RPG: every playable hero can be earned through play."
+          - paragraph [ref=e79]:
+            - strong [ref=e80]: "Before you begin:"
+            - text: Play it like a party action RPG, not a solo-character brawler. The strongest early upgrade is learning how your three heroes hand attacks to one another.
+        - figure "World file 01 Orbis rewards curiosity above and below the surface." [ref=e81]:
+          - 'img "An underwater region in DragonSword: Awakening with blue ruins and aquatic plants" [ref=e82]'
+          - generic [ref=e83]:
+            - generic [ref=e84]: World file 01
+            - text: Orbis rewards curiosity above and below the surface.
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - paragraph [ref=e87]: Basic gameplay
+        - 'heading "The combat loop: inflict, signal, switch" [level=2] [ref=e89]'
+        - paragraph [ref=e90]: Most beginners focus on raw damage. DragonSword rewards timing and party chemistry more.
+      - generic "Four-step combat loop" [ref=e91]:
+        - article [ref=e92]:
+          - generic [ref=e93]: A
+          - generic [ref=e94]:
+            - paragraph [ref=e95]: Open
+            - heading "Read the enemy" [level=3] [ref=e96]
+            - paragraph [ref=e97]: Circle first, learn the attack rhythm and avoid spending every dodge or skill at once.
+        - article [ref=e98]:
+          - generic [ref=e99]: B
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Set up
+            - heading "Apply a Status Ailment" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Use the hero whose kit can place the condition your next teammate wants.
+        - article [ref=e104]:
+          - generic [ref=e105]: C
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: React
+            - heading "Answer the Signal Skill" [level=3] [ref=e108]
+            - paragraph [ref=e109]: When the prompt appears, tag in the matching hero. This is your main burst window.
+        - article [ref=e110]:
+          - generic [ref=e111]: D
+          - generic [ref=e112]:
+            - paragraph [ref=e113]: Extend
+            - heading "Chain and reposition" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Continue the sequence if safe, or reset your spacing before the enemy retaliates.
+      - generic [ref=e116]:
+        - figure "Visual effects are loud; watch enemy posture and signal prompts, not only damage numbers." [ref=e117]:
+          - 'img "A DragonSword: Awakening hero casting an ice ability during combat" [ref=e118]'
+        - generic [ref=e120]:
+          - article [ref=e121]:
+            - generic [ref=e125]:
+              - heading "Three-hero party" [level=3] [ref=e126]
+              - paragraph [ref=e127]: Cover setup, payoff and survival. A coherent trio beats three individually strong heroes.
+          - article [ref=e128]:
+            - generic [ref=e132]:
+              - heading "Movement is defense" [level=3] [ref=e133]
+              - paragraph [ref=e134]: Save a dodge for the end of an enemy string. Greedy animation locks cause most early knockouts.
+          - article [ref=e135]:
+            - generic [ref=e139]:
+              - heading "Cooldown rotation" [level=3] [ref=e140]
+              - paragraph [ref=e141]: Rotate heroes instead of waiting on one kit. You maintain pressure and build more signal opportunities.
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - paragraph [ref=e144]: Character introduction
+        - heading "Meet the first names in Lute's story" [level=2] [ref=e146]
+        - paragraph [ref=e147]: The launch roster contains 19 playable heroes. These three define the opening journey; let their mechanics teach you what kind of party you enjoy.
+      - generic [ref=e148]:
+        - article [ref=e149]:
+          - generic [ref=e150]: "01"
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: The traveler
+            - heading "Lute" [level=3] [ref=e153]
+            - paragraph [ref=e154]: The young protagonist heading toward Orbis. Lute is your point of view into the world and the natural anchor for learning core movement, melee pressure and party switching.
+            - list [ref=e155]:
+              - listitem [ref=e156]: Story protagonist
+              - listitem [ref=e157]: Beginner-friendly foundation
+        - article [ref=e158]:
+          - generic [ref=e159]: "02"
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: The mercenary
+            - heading "Johnny" [level=3] [ref=e162]
+            - paragraph [ref=e163]: "A seasoned mercenary who pulls Lute into hired life. His story role represents the confident, forward-moving side of combat: act decisively, then create room before the counterattack."
+            - list [ref=e164]:
+              - listitem [ref=e165]: Early companion
+              - listitem [ref=e166]: Aggressive combat identity
+        - article [ref=e167]:
+          - generic [ref=e168]: "03"
+          - generic [ref=e169]:
+            - paragraph [ref=e170]: The Elf
+            - heading "Castella" [level=3] [ref=e171]
+            - paragraph [ref=e172]: An eccentric Elf who joins Lute early. She broadens the party beyond straightforward swordplay and encourages you to pay attention to control, setup and the timing of team interactions.
+            - list [ref=e173]:
+              - listitem [ref=e174]: Early companion
+              - listitem [ref=e175]: Setup-oriented playstyle
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - generic [ref=e178]: "19"
+          - paragraph [ref=e179]:
+            - strong [ref=e180]: playable heroes
+            - text: available through progression
+        - paragraph [ref=e181]: Do not spend progression materials evenly across everyone. First build one reliable trio, then invest in specialists when a dungeon or boss asks for a different answer.
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - paragraph [ref=e184]: Progression & stage tips
+        - heading "Your spoiler-light route through Orbis" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Use these checkpoints when the game opens up or a difficult encounter stalls your progress.
+      - generic [ref=e188]:
+        - article [ref=e190]:
+          - generic [ref=e191]: I
+          - 'img "A bright city area in DragonSword: Awakening" [ref=e193]'
+          - generic [ref=e194]:
+            - paragraph [ref=e195]: Opening hours
+            - heading "Learn one complete handoff" [level=3] [ref=e196]
+            - paragraph [ref=e197]: Use early encounters to memorize a single Status Ailment → Signal Skill pair. Consistency is more useful than trying every hero at once.
+            - list [ref=e198]:
+              - listitem [ref=e199]: Finish tutorials before chasing distant map icons.
+              - listitem [ref=e200]: Equip upgrades you find; save deep optimization for later.
+              - listitem [ref=e201]: Talk to quest-givers and check rewards for hero progression.
+        - article [ref=e202]:
+          - generic [ref=e203]: II
+          - 'img "An open landscape ready for exploration in DragonSword: Awakening" [ref=e205]'
+          - generic [ref=e206]:
+            - paragraph [ref=e207]: Open-world phase
+            - heading "Explore in loops, not straight lines" [level=3] [ref=e208]
+            - paragraph [ref=e209]: Travel from a hub toward one objective, clear nearby discoveries, then return. This keeps upgrades and side content close to your current power level.
+            - list [ref=e210]:
+              - listitem [ref=e211]: Activate travel points whenever you enter a new region.
+              - listitem [ref=e212]: Gather cooking materials while moving between quests.
+              - listitem [ref=e213]: Use mounts for distance; dismount early near hostile groups.
+        - article [ref=e214]:
+          - generic [ref=e215]: III
+          - 'img "A dungeon environment in DragonSword: Awakening" [ref=e217]'
+          - generic [ref=e218]:
+            - paragraph [ref=e219]: Dungeons
+            - heading "Arrive with a job for each hero" [level=3] [ref=e220]
+            - paragraph [ref=e221]: Before entering, decide who starts the combo, who converts the ailment into burst damage and who gives you a safe reset.
+            - list [ref=e222]:
+              - listitem [ref=e223]: Keep one crowd-control or area option for grouped enemies.
+              - listitem [ref=e224]: Do not use every ultimate on the first wave.
+              - listitem [ref=e225]: Check side rooms and vertical paths before leaving.
+        - article [ref=e226]:
+          - generic [ref=e227]: IV
+          - 'img "A party fighting a giant dragon boss in DragonSword: Awakening" [ref=e229]'
+          - generic [ref=e230]:
+            - paragraph [ref=e231]: Boss walls
+            - heading "Survive one cycle before chasing damage" [level=3] [ref=e232]
+            - paragraph [ref=e233]: On a new boss, spend the first attempt learning tells. Large attacks usually become manageable once you recognize the pause, sound or posture that precedes them.
+            - list [ref=e234]:
+              - listitem [ref=e235]: Attack after a completed pattern, not during the wind-up.
+              - listitem [ref=e236]: Hold your signal chain for a stagger or safe opening.
+              - listitem [ref=e237]: If time runs out, upgrade damage; if you fall early, fix defense and timing.
+      - complementary [ref=e238]:
+        - paragraph [ref=e239]: "#01"
+        - generic [ref=e240]:
+          - paragraph [ref=e241]: Best universal tip
+          - heading "Stop attacking half a second earlier." [level=3] [ref=e243]
+        - paragraph [ref=e244]: That tiny pause lets you see the counterattack, dodge cleanly and restart a much longer combo. In action RPGs, restraint is a damage stat.
+    - generic [ref=e245]:
+      - generic [ref=e246]:
+        - generic [ref=e247]:
+          - paragraph [ref=e248]: Frequently asked questions
+          - heading "Before you draw the sword" [level=2] [ref=e250]
+        - paragraph [ref=e251]: Quick answers based on the official Steam listing and launch information. Game systems may evolve after release.
+      - generic [ref=e252]:
+        - group [ref=e253]:
+          - 'generic "Is DragonSword: Awakening a gacha game?" [ref=e254] [cursor=pointer]'
+          - paragraph [ref=e257]:
+            - text: No. The Steam edition is a premium action RPG. All 19 playable heroes are earned through quests or assembled with the in-game
+            - emphasis [ref=e258]: Nameless Souls
+            - text: material rather than pulled from a paid character gacha.
+        - group [ref=e259]:
+          - generic "Can I play the game solo or offline?" [ref=e260] [cursor=pointer]
+        - group [ref=e262]:
+          - generic "How do I unlock new characters?" [ref=e263] [cursor=pointer]
+        - group [ref=e265]:
+          - generic "What is a Signal Skill?" [ref=e266] [cursor=pointer]
+        - group [ref=e268]:
+          - generic "What should I upgrade first?" [ref=e269] [cursor=pointer]
+        - group [ref=e271]:
+          - generic "What are the PC requirements?" [ref=e272] [cursor=pointer]
+    - generic [ref=e277]:
+      - paragraph [ref=e278]: Field guide complete
+      - heading "Now make the combo yours." [level=2] [ref=e280]
+      - paragraph [ref=e281]: Build one reliable trio, learn the enemy's rhythm and let every switch have a purpose.
+      - link "Open the Steam page" [ref=e282] [cursor=pointer]:
+        - /url: https://store.steampowered.com/app/4570720/DragonSword__Awakening/
+  - contentinfo [ref=e283]:
+    - generic [ref=e284]:
+      - link "Orbis Field Guide" [ref=e285] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e289]:
+          - generic [ref=e290]: Orbis
+          - text: Field Guide
+      - paragraph [ref=e291]: An independent, spoiler-conscious guide for adventurers.
+    - generic [ref=e292]:
+      - paragraph [ref=e293]: Sources
+      - link "Official Steam listing" [ref=e294] [cursor=pointer]:
+        - /url: https://store.steampowered.com/app/4570720/DragonSword__Awakening/
+      - link "Official updates" [ref=e295] [cursor=pointer]:
+        - /url: https://steamcommunity.com/app/4570720/allnews/
+    - paragraph [ref=e296]: "DragonSword: Awakening and its official imagery are property of Hound13 Inc. This fan guide is not affiliated with or endorsed by the developer. Last checked July 29, 2026."
+  - button "Back to top"
