@@ -3,410 +3,181 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DragonSword: Awakening Beginner Guide, Characters & Combat Tips</title>
-  <meta name="description" content="A spoiler-light DragonSword: Awakening guide to combat basics, Status Ailment combos, characters, progression tips, bosses, exploration and common FAQs.">
+  <title>DragonSword: Awakening Guide Hub | Characters, Stages & Tips</title>
+  <meta name="description" content="A verified DragonSword: Awakening guide hub for beginner combat, playable heroes, campaign activities, progression tips, co-op details and FAQs.">
   <meta name="robots" content="index,follow">
-  <meta name="theme-color" content="#071827">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath d='M18 2 31 11v14L18 34 5 25V11Z' fill='%23071827' stroke='%235ed7ed'/%3E%3Cpath d='m18 7 3.3 7.6 7.7 3.3-7.7 3.3L18 29l-3.3-7.8L7 17.9l7.7-3.3Z' fill='%235ed7ed'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#06131f">
+  <link rel="canonical" href="https://yefeng1346.github.io/Dragon-Sword-Awakening/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath d='M18 2 31 11v14L18 34 5 25V11Z' fill='%2306131f' stroke='%2363dbe6'/%3E%3Cpath d='m18 7 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z' fill='%2363dbe6'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&family=Marcellus&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="DragonSword: Awakening — The Adventurer's Field Guide">
-  <meta property="og:description" content="Combat basics, character guidance and spoiler-light progression tips for your first journey across Orbis.">
-  <meta property="og:image" content="assets/steam-header.jpg">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DragonSword: Awakening Field Guide">
+  <meta property="og:description" content="Verified guides for combat, heroes, stages, exploration and co-op on the Continent of Orbis.">
+  <meta property="og:image" content="https://yefeng1346.github.io/Dragon-Sword-Awakening/assets/steam-header.jpg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "headline": "DragonSword: Awakening Beginner Guide, Characters & Combat Tips",
-        "description": "A spoiler-light beginner guide to DragonSword: Awakening on Steam.",
-        "dateModified": "2026-07-29",
-        "about": {
-          "@type": "VideoGame",
-          "name": "DragonSword: Awakening",
-          "gamePlatform": "PC (Steam)",
-          "genre": ["Action RPG", "Adventure", "Open World"],
-          "author": {"@type": "Organization", "name": "Hound13 Inc."}
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is DragonSword: Awakening a gacha game?",
-            "acceptedAnswer": {"@type": "Answer", "text": "No. The Steam release is a premium action RPG. Its 19 playable heroes are earned through quests or assembled with in-game Nameless Souls rather than pulled from a paid gacha."}
-          },
-          {
-            "@type": "Question",
-            "name": "Can DragonSword: Awakening be played solo?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes. The story and open-world adventure are designed for single-player play. The Steam listing also includes online co-op for supported activities."}
-          },
-          {
-            "@type": "Question",
-            "name": "What is the most important combat mechanic?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Build a party whose Status Ailments trigger one another's Signal Skills. Apply an ailment, react to the signal prompt, then switch heroes to continue the combo."}
-          }
-        ]
-      }
-    ]
+    "@type": "WebSite",
+    "name": "DragonSword: Awakening Field Guide",
+    "url": "https://yefeng1346.github.io/Dragon-Sword-Awakening/",
+    "description": "An independent guide hub for DragonSword: Awakening.",
+    "about": {"@type": "VideoGame", "name": "DragonSword: Awakening", "gamePlatform": "PC"}
   }
   </script>
 </head>
-<body>
-  <a class="skip-link" href="#main">Skip to guide</a>
-
-  <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="Orbis Field Guide home">
-      <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true">
-        <path d="M18 2 31 11v14L18 34 5 25V11L18 2Z"/>
-        <path d="m18 7 3.3 7.6 7.7 3.3-7.7 3.3L18 29l-3.3-7.8L7 17.9l7.7-3.3L18 7Z"/>
-      </svg>
-      <span><small>Orbis</small>Field Guide</span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu>
-      <span></span><span></span><span></span>
-      <span class="sr-only">Toggle navigation</span>
-    </button>
-    <nav id="site-nav" class="site-nav" aria-label="Guide sections" data-nav>
-      <a href="#overview">Overview</a>
-      <a href="#gameplay">Gameplay</a>
-      <a href="#characters">Characters</a>
-      <a href="#tips">Tips</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <a class="steam-link" href="https://store.steampowered.com/app/4570720/DragonSword__Awakening/" target="_blank" rel="noopener noreferrer">
-      View on Steam
-      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4h10v10M16 4 5 15"/></svg>
-    </a>
+<body data-base="./">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="DragonSword Field Guide home">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 31 11v14L18 34 5 25V11L18 2Z"/><path d="m18 7 3.3 7.6 7.7 3.3-7.7 3.3L18 29l-3.3-7.8L7 17.9l7.7-3.3L18 7Z"/></svg>
+        <span><small>Orbis archive</small>DragonSword Guide</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation" data-nav>
+        <a href="./" aria-current="page">Home</a>
+        <a href="guide/">Guide</a>
+        <a href="characters/">Characters</a>
+        <a href="stages/">Stages</a>
+        <a href="tips/">Tips</a>
+        <a href="faq/">FAQ</a>
+      </nav>
+      <div class="header-tools">
+        <button class="search-toggle" type="button" aria-expanded="false" aria-label="Open site search" data-search-toggle>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+        </button>
+        <a class="steam-button" href="https://store.steampowered.com/app/4570720/DragonSword__Awakening/" target="_blank" rel="noopener noreferrer">Steam ↗</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle menu" data-menu><i></i><i></i><i></i></button>
+      </div>
+    </div>
+    <div class="search-drawer" data-search-drawer>
+      <div class="search-box">
+        <form data-search-form>
+          <label class="sr-only" for="global-search">Search this guide</label>
+          <input id="global-search" type="search" placeholder="Search heroes, combat, stages, co-op…" autocomplete="off" data-site-search>
+          <button type="submit">Find guide</button>
+        </form>
+        <div class="search-suggestions" data-suggestions></div>
+      </div>
+    </div>
   </header>
 
   <main id="main">
-    <section class="hero" id="top" aria-labelledby="page-title">
-      <div class="hero-media" aria-hidden="true">
-        <img src="assets/hero.jpg" alt="">
-      </div>
-      <div class="hero-wash"></div>
-      <div class="hero-grid">
+    <section class="home-hero">
+      <img src="assets/hero.jpg" alt="The white towers of Orbis in DragonSword: Awakening">
+      <div class="hero-inner">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> New player handbook · No major spoilers</p>
-          <h1 id="page-title"><span>DragonSword:</span> Awakening</h1>
-          <p class="hero-lede">Master the tag-team rhythm, build a party that actually works, and cross the Continent of Orbis without wasting your best resources.</p>
+          <p class="eyebrow">Independent wiki · launch guide</p>
+          <h1><span>DragonSword:</span> Awakening Field Guide</h1>
+          <p>Fast, spoiler-conscious answers for tag-team combat, the 19-hero roster, campaign activities and open-world exploration.</p>
+          <div class="hero-search">
+            <label for="hero-search">What do you need help with?</label>
+            <form data-search-form>
+              <input id="hero-search" type="search" placeholder="Try “Signal Skills” or “co-op”…" autocomplete="off" data-site-search>
+              <button type="submit">Search</button>
+            </form>
+          </div>
           <div class="hero-actions">
-            <a class="button button-primary" href="#gameplay">Start the guide</a>
-            <a class="button button-ghost" href="#tips">Jump to progression tips</a>
+            <a class="button button-primary" href="guide/">Start beginner guide</a>
+            <a class="button button-outline" href="characters/">Browse characters</a>
           </div>
         </div>
-
-        <aside class="hero-dossier" aria-label="Game quick facts">
-          <p class="dossier-label">Adventurer dossier</p>
+        <aside class="hero-file" aria-label="Verified game facts">
+          <h2>Game file / launch build</h2>
           <dl>
-            <div><dt>World</dt><dd>Continent of Orbis</dd></div>
-            <div><dt>Combat</dt><dd>Real-time tag team</dd></div>
-            <div><dt>Roster</dt><dd>19 playable heroes</dd></div>
+            <div><dt>Developer</dt><dd>Hound13 Inc.</dd></div>
+            <div><dt>Released</dt><dd>July 22, 2026</dd></div>
+            <div><dt>Playable heroes</dt><dd>19</dd></div>
+            <div><dt>Primary mode</dt><dd>Single-player</dd></div>
             <div><dt>Platform</dt><dd>PC · Steam</dd></div>
           </dl>
-          <p class="dossier-note">Released July 22, 2026 · Developed by Hound13 Inc.</p>
+          <p class="verified"><span class="verified-dot"></span><span>Checked against the official Steam listing and Hound13 launch posts on July 29, 2026.</span></p>
         </aside>
       </div>
-      <div class="scroll-cue" aria-hidden="true">
-        <span>Scroll to explore</span><i></i>
+    </section>
+
+    <section class="section section-dark">
+      <div class="section-head">
+        <p class="eyebrow">Quick lookup</p>
+        <h2>Find the answer, then return to Orbis</h2>
+        <p>Each section is now its own focused page, with a stable table of contents and links back to the wider guide.</p>
+      </div>
+      <div class="quick-grid">
+        <a class="quick-card" href="guide/"><span class="quick-index">01 / Start here</span><h3>Beginner Guide</h3><p>First hours, party structure and the Signal combat loop.</p><span class="quick-arrow">Open guide →</span></a>
+        <a class="quick-card" href="characters/"><span class="quick-index">02 / Roster</span><h3>Characters</h3><p>Confirmed heroes, official features and verification status.</p><span class="quick-arrow">Open directory →</span></a>
+        <a class="quick-card" href="stages/"><span class="quick-index">03 / Progress</span><h3>Stages</h3><p>Campaign chapters, quests, dungeons, hunts and raids.</p><span class="quick-arrow">Plan route →</span></a>
+        <a class="quick-card" href="tips/"><span class="quick-index">04 / Improve</span><h3>Tips</h3><p>Combat discipline, resources, exploration and PC advice.</p><span class="quick-arrow">Read tips →</span></a>
+        <a class="quick-card" href="faq/"><span class="quick-index">05 / Answers</span><h3>FAQ</h3><p>Gacha, offline play, co-op, price and requirements.</p><span class="quick-arrow">View FAQ →</span></a>
+      </div>
+      <div class="fact-strip" aria-label="Game facts">
+        <div><strong>19</strong><span>heroes obtainable through gameplay</span></div>
+        <div><strong>3</strong><span>heroes in an active party</span></div>
+        <div><strong>8</strong><span>main story chapters announced for full release</span></div>
+        <div><strong>59</strong><span>Steam achievements at launch</span></div>
       </div>
     </section>
 
-    <section class="quick-nav" aria-label="On this page">
-      <p>Choose your route</p>
-      <div class="quick-links">
-        <a href="#overview"><span>01</span> Know the world</a>
-        <a href="#gameplay"><span>02</span> Learn the loop</a>
-        <a href="#characters"><span>03</span> Build a party</a>
-        <a href="#tips"><span>04</span> Clear the path</a>
-        <a href="#faq"><span>05</span> Find an answer</a>
-      </div>
-    </section>
-
-    <section class="section section-overview" id="overview">
-      <div class="section-heading">
-        <p class="eyebrow"><span></span> Game overview</p>
-        <h2>A bright world with a dragon-shaped shadow</h2>
-      </div>
-      <div class="overview-layout">
-        <div class="overview-copy prose">
-          <p class="lead">DragonSword: Awakening is an anime-style open-world action RPG set on the Continent of Orbis, sixty years after a legendary dragon last threatened the land.</p>
-          <p>You play as <strong>Lute</strong>, a young traveler drawn into mercenary life after meeting Johnny and the Elf Castella. What begins as a lively journey through human civilization soon grows into a continent-spanning fight against an awakened ancient threat.</p>
-          <p>The game mixes free-roaming exploration, story quests, dungeons, cooking, mounts and large enemy encounters with a combat system built around switching between heroes at the right moment. It looks like a character collector, but the Steam edition is a premium RPG: every playable hero can be earned through play.</p>
-          <div class="editor-note">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10M12 17v.01"/><circle cx="12" cy="12" r="9"/></svg>
-            <p><strong>Before you begin:</strong> Play it like a party action RPG, not a solo-character brawler. The strongest early upgrade is learning how your three heroes hand attacks to one another.</p>
-          </div>
-        </div>
-        <figure class="image-card image-card-tall">
-          <img src="assets/world.jpg" alt="An underwater region in DragonSword: Awakening with blue ruins and aquatic plants" loading="lazy">
-          <figcaption><span>World file 01</span> Orbis rewards curiosity above and below the surface.</figcaption>
+    <section class="section">
+      <div class="home-feature">
+        <figure>
+          <img src="assets/combat.jpg" alt="A hero casting an ice skill in DragonSword: Awakening" loading="lazy">
         </figure>
-      </div>
-    </section>
-
-    <section class="section gameplay-section" id="gameplay">
-      <div class="section-heading section-heading-light">
-        <p class="eyebrow"><span></span> Basic gameplay</p>
-        <h2>The combat loop: inflict, signal, switch</h2>
-        <p>Most beginners focus on raw damage. DragonSword rewards timing and party chemistry more.</p>
-      </div>
-
-      <div class="combat-loop" aria-label="Four-step combat loop">
-        <article>
-          <span class="step-icon">A</span>
-          <div>
-            <p class="step-kicker">Open</p>
-            <h3>Read the enemy</h3>
-            <p>Circle first, learn the attack rhythm and avoid spending every dodge or skill at once.</p>
-          </div>
-        </article>
-        <article>
-          <span class="step-icon">B</span>
-          <div>
-            <p class="step-kicker">Set up</p>
-            <h3>Apply a Status Ailment</h3>
-            <p>Use the hero whose kit can place the condition your next teammate wants.</p>
-          </div>
-        </article>
-        <article class="featured-step">
-          <span class="step-icon">C</span>
-          <div>
-            <p class="step-kicker">React</p>
-            <h3>Answer the Signal Skill</h3>
-            <p>When the prompt appears, tag in the matching hero. This is your main burst window.</p>
-          </div>
-        </article>
-        <article>
-          <span class="step-icon">D</span>
-          <div>
-            <p class="step-kicker">Extend</p>
-            <h3>Chain and reposition</h3>
-            <p>Continue the sequence if safe, or reset your spacing before the enemy retaliates.</p>
-          </div>
-        </article>
-      </div>
-
-      <div class="mechanics-grid">
-        <figure class="wide-visual">
-          <img src="assets/combat.jpg" alt="A DragonSword: Awakening hero casting an ice ability during combat" loading="lazy">
-          <figcaption>Visual effects are loud; watch enemy posture and signal prompts, not only damage numbers.</figcaption>
-        </figure>
-        <div class="mechanic-list">
-          <article>
-            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 5 9v14l11 6 11-6V9L16 3Z"/><path d="m10 16 4 4 8-9"/></svg>
-            <div><h3>Three-hero party</h3><p>Cover setup, payoff and survival. A coherent trio beats three individually strong heroes.</p></div>
-          </article>
-          <article>
-            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 26 26 6M10 6h16v16"/><path d="m5 15 12 12"/></svg>
-            <div><h3>Movement is defense</h3><p>Save a dodge for the end of an enemy string. Greedy animation locks cause most early knockouts.</p></div>
-          </article>
-          <article>
-            <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="12"/><path d="M16 8v8l6 3"/></svg>
-            <div><h3>Cooldown rotation</h3><p>Rotate heroes instead of waiting on one kit. You maintain pressure and build more signal opportunities.</p></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section characters-section" id="characters">
-      <div class="section-heading">
-        <p class="eyebrow"><span></span> Character introduction</p>
-        <h2>Meet the first names in Lute's story</h2>
-        <p>The launch roster contains 19 playable heroes. These three define the opening journey; let their mechanics teach you what kind of party you enjoy.</p>
-      </div>
-
-      <div class="character-grid">
-        <article class="character-card character-lute">
-          <div class="character-number">01</div>
-          <div class="character-body">
-            <p class="character-type">The traveler</p>
-            <h3>Lute</h3>
-            <p>The young protagonist heading toward Orbis. Lute is your point of view into the world and the natural anchor for learning core movement, melee pressure and party switching.</p>
-            <ul><li>Story protagonist</li><li>Beginner-friendly foundation</li></ul>
-          </div>
-        </article>
-        <article class="character-card character-johnny">
-          <div class="character-number">02</div>
-          <div class="character-body">
-            <p class="character-type">The mercenary</p>
-            <h3>Johnny</h3>
-            <p>A seasoned mercenary who pulls Lute into hired life. His story role represents the confident, forward-moving side of combat: act decisively, then create room before the counterattack.</p>
-            <ul><li>Early companion</li><li>Aggressive combat identity</li></ul>
-          </div>
-        </article>
-        <article class="character-card character-castella">
-          <div class="character-number">03</div>
-          <div class="character-body">
-            <p class="character-type">The Elf</p>
-            <h3>Castella</h3>
-            <p>An eccentric Elf who joins Lute early. She broadens the party beyond straightforward swordplay and encourages you to pay attention to control, setup and the timing of team interactions.</p>
-            <ul><li>Early companion</li><li>Setup-oriented playstyle</li></ul>
-          </div>
-        </article>
-      </div>
-
-      <div class="roster-note">
         <div>
-          <span class="big-number">19</span>
-          <p><strong>playable heroes</strong><br>available through progression</p>
+          <p class="eyebrow">Core mechanic</p>
+          <h2>Combat is a conversation between three heroes</h2>
+          <p>DragonSword is built around Status Ailments, Active Skills and Signal Skills. The party order matters because one hero can create the exact condition another hero needs to enter with a payoff attack.</p>
+          <ol class="signal-steps">
+            <li><div><strong>Apply</strong><span>Build a Status Ailment with attacks and Active Skills.</span></div></li>
+            <li><div><strong>Answer</strong><span>Watch for a compatible Signal Skill prompt.</span></div></li>
+            <li><div><strong>Switch</strong><span>Bring in the next hero and keep the chain moving.</span></div></li>
+          </ol>
+          <a class="button button-dark" href="guide/#combat">Learn the combat loop</a>
         </div>
-        <p>Do not spend progression materials evenly across everyone. First build one reliable trio, then invest in specialists when a dungeon or boss asks for a different answer.</p>
       </div>
     </section>
 
-    <section class="section route-section" id="tips">
-      <div class="section-heading section-heading-light">
-        <p class="eyebrow"><span></span> Progression & stage tips</p>
-        <h2>Your spoiler-light route through Orbis</h2>
-        <p>Use these checkpoints when the game opens up or a difficult encounter stalls your progress.</p>
-      </div>
-
-      <div class="route-map">
-        <div class="route-line" aria-hidden="true"></div>
-        <article class="route-stop">
-          <div class="route-marker">I</div>
-          <div class="route-image"><img src="assets/city.jpg" alt="A bright city area in DragonSword: Awakening" loading="lazy"></div>
-          <div class="route-content">
-            <p class="route-label">Opening hours</p>
-            <h3>Learn one complete handoff</h3>
-            <p>Use early encounters to memorize a single Status Ailment → Signal Skill pair. Consistency is more useful than trying every hero at once.</p>
-            <ul>
-              <li>Finish tutorials before chasing distant map icons.</li>
-              <li>Equip upgrades you find; save deep optimization for later.</li>
-              <li>Talk to quest-givers and check rewards for hero progression.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="route-stop route-stop-reverse">
-          <div class="route-marker">II</div>
-          <div class="route-image"><img src="assets/explore.jpg" alt="An open landscape ready for exploration in DragonSword: Awakening" loading="lazy"></div>
-          <div class="route-content">
-            <p class="route-label">Open-world phase</p>
-            <h3>Explore in loops, not straight lines</h3>
-            <p>Travel from a hub toward one objective, clear nearby discoveries, then return. This keeps upgrades and side content close to your current power level.</p>
-            <ul>
-              <li>Activate travel points whenever you enter a new region.</li>
-              <li>Gather cooking materials while moving between quests.</li>
-              <li>Use mounts for distance; dismount early near hostile groups.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="route-stop">
-          <div class="route-marker">III</div>
-          <div class="route-image"><img src="assets/dungeon.jpg" alt="A dungeon environment in DragonSword: Awakening" loading="lazy"></div>
-          <div class="route-content">
-            <p class="route-label">Dungeons</p>
-            <h3>Arrive with a job for each hero</h3>
-            <p>Before entering, decide who starts the combo, who converts the ailment into burst damage and who gives you a safe reset.</p>
-            <ul>
-              <li>Keep one crowd-control or area option for grouped enemies.</li>
-              <li>Do not use every ultimate on the first wave.</li>
-              <li>Check side rooms and vertical paths before leaving.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="route-stop route-stop-reverse">
-          <div class="route-marker">IV</div>
-          <div class="route-image"><img src="assets/party.jpg" alt="A party fighting a giant dragon boss in DragonSword: Awakening" loading="lazy"></div>
-          <div class="route-content">
-            <p class="route-label">Boss walls</p>
-            <h3>Survive one cycle before chasing damage</h3>
-            <p>On a new boss, spend the first attempt learning tells. Large attacks usually become manageable once you recognize the pause, sound or posture that precedes them.</p>
-            <ul>
-              <li>Attack after a completed pattern, not during the wind-up.</li>
-              <li>Hold your signal chain for a stagger or safe opening.</li>
-              <li>If time runs out, upgrade damage; if you fall early, fix defense and timing.</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-
-      <aside class="tip-banner">
-        <p class="tip-number">#01</p>
-        <div><p class="eyebrow"><span></span> Best universal tip</p><h3>Stop attacking half a second earlier.</h3></div>
-        <p>That tiny pause lets you see the counterattack, dodge cleanly and restart a much longer combo. In action RPGs, restraint is a damage stat.</p>
-      </aside>
-    </section>
-
-    <section class="section faq-section" id="faq">
-      <div class="faq-intro">
-        <div class="section-heading">
-          <p class="eyebrow"><span></span> Frequently asked questions</p>
-          <h2>Before you draw the sword</h2>
+    <section class="section section-dark">
+      <div class="home-feature">
+        <div>
+          <p class="eyebrow">The world</p>
+          <h2>A radiant continent with paths above and below ground</h2>
+          <p style="color:var(--mist)">Official Steam material confirms meadows, watchtower cellars, treasure-filled deep seas, hidden caves and dungeons. Cooking, resident requests and collectible Familiars all feed the exploration loop.</p>
+          <a class="button button-primary" href="stages/#exploration">Explore activity types</a>
         </div>
-        <p>Quick answers based on the official Steam listing and launch information. Game systems may evolve after release.</p>
-      </div>
-      <div class="faq-list">
-        <details open>
-          <summary>Is DragonSword: Awakening a gacha game?<span></span></summary>
-          <div><p>No. The Steam edition is a premium action RPG. All 19 playable heroes are earned through quests or assembled with the in-game <em>Nameless Souls</em> material rather than pulled from a paid character gacha.</p></div>
-        </details>
-        <details>
-          <summary>Can I play the game solo or offline?<span></span></summary>
-          <div><p>Yes. The story and open world are built around single-player play. Official launch guidance says you can play offline as long as you are logged into Steam. The Steam page also lists online co-op for supported activities.</p></div>
-        </details>
-        <details>
-          <summary>How do I unlock new characters?<span></span></summary>
-          <div><p>Continue the story, complete relevant quests and collect Nameless Souls where required. You will not begin with the full roster, so focus your early resources on the first dependable party you assemble.</p></div>
-        </details>
-        <details>
-          <summary>What is a Signal Skill?<span></span></summary>
-          <div><p>It is a team interaction triggered when an enemy meets the right Status Ailment condition. Apply the needed condition with one hero, then respond to the signal prompt by bringing in the compatible teammate.</p></div>
-        </details>
-        <details>
-          <summary>What should I upgrade first?<span></span></summary>
-          <div><p>Prioritize one balanced three-hero team and the equipment that directly supports its main combo. Spreading limited materials across the entire roster slows your first clear more than it helps flexibility.</p></div>
-        </details>
-        <details>
-          <summary>What are the PC requirements?<span></span></summary>
-          <div><p>The Steam minimum lists Windows 10, an Intel i5-9400F, 8 GB RAM, a GTX 1660, DirectX 12 and 25 GB of storage. An SSD is strongly recommended; the recommended tier lists an i7-9700F, 16 GB RAM and an RTX 3060.</p></div>
-        </details>
+        <figure>
+          <img src="assets/world.jpg" alt="A deep-sea area in DragonSword: Awakening" loading="lazy">
+        </figure>
       </div>
     </section>
 
-    <section class="final-cta">
-      <img src="assets/roster.jpg" alt="" aria-hidden="true" loading="lazy">
-      <div class="final-cta-wash"></div>
-      <div class="final-cta-content">
-        <p class="eyebrow"><span></span> Field guide complete</p>
-        <h2>Now make the combo yours.</h2>
-        <p>Build one reliable trio, learn the enemy's rhythm and let every switch have a purpose.</p>
-        <a class="button button-primary" href="https://store.steampowered.com/app/4570720/DragonSword__Awakening/" target="_blank" rel="noopener noreferrer">Open the Steam page</a>
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow">Editorial policy</p>
+        <h2>New game, careful claims</h2>
+        <p>Launch-week information changes quickly. This guide separates confirmed facts from community observations instead of filling gaps with invented data.</p>
+      </div>
+      <div class="trust-grid">
+        <article class="trust-card"><span class="tag">Official fact</span><h3>Primary-source first</h3><p>Story, modes, system requirements and feature claims come from Steam or Hound13 announcements whenever possible.</p></article>
+        <article class="trust-card"><span class="tag">Community note</span><h3>Useful, clearly labeled</h3><p>Reddit and player reports can inform practical advice, but unverified numbers, tier lists and stage names are not treated as facts.</p></article>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div>
-      <a class="brand footer-brand" href="#top">
-        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 31 11v14L18 34 5 25V11L18 2Z"/><path d="m18 7 3.3 7.6 7.7 3.3-7.7 3.3L18 29l-3.3-7.8L7 17.9l7.7-3.3L18 7Z"/></svg>
-        <span><small>Orbis</small>Field Guide</span>
-      </a>
-      <p>An independent, spoiler-conscious guide for adventurers.</p>
+    <div class="footer-inner">
+      <div class="footer-about">
+        <a class="brand" href="./"><svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 31 11v14L18 34 5 25V11L18 2Z"/><path d="m18 7 3.3 7.6 7.7 3.3-7.7 3.3L18 29l-3.3-7.8L7 17.9l7.7-3.3L18 7Z"/></svg><span><small>Orbis archive</small>DragonSword Guide</span></a>
+        <p>An independent, spoiler-conscious reference for DragonSword: Awakening players.</p>
+      </div>
+      <nav class="footer-col" aria-label="Guide pages"><h2>Guides</h2><a href="guide/">Beginner Guide</a><a href="characters/">Characters</a><a href="stages/">Stages</a><a href="tips/">Tips</a></nav>
+      <nav class="footer-col" aria-label="Support pages"><h2>Support</h2><a href="faq/">FAQ</a><a href="faq/#requirements">PC Requirements</a><a href="faq/#sources">Sources</a></nav>
+      <nav class="footer-col" aria-label="Official links"><h2>Official</h2><a href="https://store.steampowered.com/app/4570720/DragonSword__Awakening/" target="_blank" rel="noopener noreferrer">Steam Store ↗</a><a href="https://steamcommunity.com/app/4570720/allnews/" target="_blank" rel="noopener noreferrer">Steam News ↗</a></nav>
     </div>
-    <div class="source-links">
-      <p>Sources</p>
-      <a href="https://store.steampowered.com/app/4570720/DragonSword__Awakening/" target="_blank" rel="noopener noreferrer">Official Steam listing</a>
-      <a href="https://steamcommunity.com/app/4570720/allnews/" target="_blank" rel="noopener noreferrer">Official updates</a>
-    </div>
-    <p class="disclaimer">DragonSword: Awakening and its official imagery are property of Hound13 Inc. This fan guide is not affiliated with or endorsed by the developer. Last checked July 29, 2026.</p>
+    <div class="footer-bottom"><p>Unofficial fan guide. DragonSword: Awakening, its names and official imagery belong to Hound13 Inc.</p><span>Last verified: 29 Jul 2026</span></div>
   </footer>
-
-  <button class="back-to-top" type="button" aria-label="Back to top" data-top>
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 14 6-6 6 6"/></svg>
-  </button>
-
+  <button class="back-to-top" type="button" aria-label="Back to top" data-top>↑</button>
   <script src="script.js"></script>
 </body>
 </html>
