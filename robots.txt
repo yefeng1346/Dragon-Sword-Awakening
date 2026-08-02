@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yefeng1346.github.io/Dragon-Sword-Awakening/sitemap.xml
+Sitemap: https://www.dragon-sword-awakening.shop/sitemap.xml
