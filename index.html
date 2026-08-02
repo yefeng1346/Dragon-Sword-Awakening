@@ -1,20 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="https://quge5.com/88/tag.min.js" data-zone="264978" async data-cfasync="false"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="monetag" content="e3b4dead46eb1f828d07d74f4ab6366e">
-  <title>DragonSword: Awakening Guide Hub | Characters, Stages & Tips</title>
+  <title>DragonSword: Awakening Guide Hub | Characters, Stages &amp; Tips</title>
   <meta name="description" content="A verified DragonSword: Awakening guide hub for beginner combat, playable heroes, campaign activities, progression tips, co-op details and FAQs.">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#06131f">
   <link rel="canonical" href="https://www.dragon-sword-awakening.shop/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath d='M18 2 31 11v14L18 34 5 25V11Z' fill='%2306131f' stroke='%2363dbe6'/%3E%3Cpath d='m18 7 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z' fill='%2363dbe6'/%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&family=Marcellus&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="assets/hero.avif" fetchpriority="high">
   <meta property="og:type" content="website">
   <meta property="og:title" content="DragonSword: Awakening Field Guide">
   <meta property="og:description" content="Verified guides for combat, heroes, stages, exploration and co-op on the Continent of Orbis.">
@@ -23,11 +19,31 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "DragonSword: Awakening Field Guide",
-    "url": "https://www.dragon-sword-awakening.shop/",
-    "description": "An independent guide hub for DragonSword: Awakening.",
-    "about": {"@type": "VideoGame", "name": "DragonSword: Awakening", "gamePlatform": "PC"}
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.dragon-sword-awakening.shop/#organization",
+        "name": "DragonSword Guide Editorial Team",
+        "url": "https://www.dragon-sword-awakening.shop/",
+        "sameAs": ["https://github.com/yefeng1346/Dragon-Sword-Awakening"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.dragon-sword-awakening.shop/#website",
+        "name": "DragonSword: Awakening Field Guide",
+        "alternateName": "DragonSword Guide",
+        "url": "https://www.dragon-sword-awakening.shop/",
+        "publisher": {"@id": "https://www.dragon-sword-awakening.shop/#organization"},
+        "about": {"@id": "https://www.dragon-sword-awakening.shop/#game"}
+      },
+      {
+        "@type": "VideoGame",
+        "@id": "https://www.dragon-sword-awakening.shop/#game",
+        "name": "DragonSword: Awakening",
+        "gamePlatform": "PC",
+        "url": "https://store.steampowered.com/app/4570720/DragonSword__Awakening/"
+      }
+    ]
   }
   </script>
 </head>
@@ -35,7 +51,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="./" aria-label="DragonSword Field Guide home">
+      <a class="brand" href="./">
         <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 31 11v14L18 34 5 25V11L18 2Z"/><path d="m18 7 3.3 7.6 7.7 3.3-7.7 3.3L18 29l-3.3-7.8L7 17.9l7.7-3.3L18 7Z"/></svg>
         <span><small>Orbis archive</small>DragonSword Guide</span>
       </a>
@@ -69,7 +85,7 @@
 
   <main id="main">
     <section class="home-hero">
-      <img src="assets/hero.jpg" alt="The white towers of Orbis in DragonSword: Awakening">
+      <img src="assets/hero.avif" width="600" height="338" fetchpriority="high" alt="The white towers of Orbis in DragonSword: Awakening">
       <div class="hero-inner">
         <div class="hero-copy">
           <p class="eyebrow">Independent wiki · launch guide</p>
@@ -96,7 +112,7 @@
             <div><dt>Primary mode</dt><dd>Single-player</dd></div>
             <div><dt>Platform</dt><dd>PC · Steam</dd></div>
           </dl>
-          <p class="verified"><span class="verified-dot"></span><span>Checked against the official Steam listing and Hound13 launch posts on July 29, 2026.</span></p>
+          <p class="verified"><span class="verified-dot"></span><span>Source baseline: Steam version 1.0.6 and Hound13 posts, reviewed August 2, 2026.</span></p>
         </aside>
       </div>
     </section>
@@ -114,18 +130,18 @@
         <a class="quick-card" href="tips/"><span class="quick-index">04 / Improve</span><h3>Tips</h3><p>Combat discipline, resources, exploration and PC advice.</p><span class="quick-arrow">Read tips →</span></a>
         <a class="quick-card" href="faq/"><span class="quick-index">05 / Answers</span><h3>FAQ</h3><p>Gacha, offline play, co-op, price and requirements.</p><span class="quick-arrow">View FAQ →</span></a>
       </div>
-      <div class="fact-strip" aria-label="Game facts">
-        <div><strong>19</strong><span>heroes obtainable through gameplay</span></div>
-        <div><strong>3</strong><span>heroes in an active party</span></div>
-        <div><strong>8</strong><span>main story chapters announced for full release</span></div>
-        <div><strong>59</strong><span>Steam achievements at launch</span></div>
-      </div>
+      <ul class="fact-strip">
+        <li><strong>19</strong><span>heroes obtainable through gameplay</span></li>
+        <li><strong>3</strong><span>heroes in an active party</span></li>
+        <li><strong>8</strong><span>main story chapters announced for full release</span></li>
+        <li><strong>59</strong><span>Steam achievements at launch</span></li>
+      </ul>
     </section>
 
     <section class="section">
       <div class="home-feature">
         <figure>
-          <img src="assets/combat.jpg" alt="A hero casting an ice skill in DragonSword: Awakening" loading="lazy">
+          <img src="assets/combat.avif" width="600" height="338" alt="A hero casting an ice skill in DragonSword: Awakening" loading="lazy" decoding="async">
         </figure>
         <div>
           <p class="eyebrow">Core mechanic</p>
@@ -146,11 +162,11 @@
         <div>
           <p class="eyebrow">The world</p>
           <h2>A radiant continent with paths above and below ground</h2>
-          <p style="color:var(--mist)">Official Steam material confirms meadows, watchtower cellars, treasure-filled deep seas, hidden caves and dungeons. Cooking, resident requests and collectible Familiars all feed the exploration loop.</p>
+          <p>Official Steam material confirms meadows, watchtower cellars, treasure-filled deep seas, hidden caves and dungeons. Cooking, resident requests and collectible Familiars all feed the exploration loop.</p>
           <a class="button button-primary" href="stages/#exploration">Explore activity types</a>
         </div>
         <figure>
-          <img src="assets/world.jpg" alt="A deep-sea area in DragonSword: Awakening" loading="lazy">
+          <img src="assets/world.avif" width="600" height="338" alt="A deep-sea area in DragonSword: Awakening" loading="lazy" decoding="async">
         </figure>
       </div>
     </section>
@@ -162,8 +178,8 @@
         <p>Launch-week information changes quickly. This guide separates confirmed facts from community observations instead of filling gaps with invented data.</p>
       </div>
       <div class="trust-grid">
-        <article class="trust-card"><span class="tag">Official fact</span><h3>Primary-source first</h3><p>Story, modes, system requirements and feature claims come from Steam or Hound13 announcements whenever possible.</p></article>
-        <article class="trust-card"><span class="tag">Community note</span><h3>Useful, clearly labeled</h3><p>Reddit and player reports can inform practical advice, but unverified numbers, tier lists and stage names are not treated as facts.</p></article>
+        <article class="trust-card"><span class="tag">Official fact</span><h3>Primary-source first</h3><p>Story, modes, system requirements and feature claims come from Steam or Hound13 announcements whenever possible. <a href="editorial-policy/">Read the editorial policy →</a></p></article>
+        <article class="trust-card"><span class="tag">Community note</span><h3>Useful, clearly labeled</h3><p>Player reports can inform practical advice, but unverified numbers, tier lists and stage names are not treated as facts. <a href="about/">Meet the guide team →</a></p></article>
       </div>
     </section>
   </main>
@@ -175,10 +191,10 @@
         <p>An independent, spoiler-conscious reference for DragonSword: Awakening players.</p>
       </div>
       <nav class="footer-col" aria-label="Guide pages"><h2>Guides</h2><a href="guide/">Beginner Guide</a><a href="characters/">Characters</a><a href="stages/">Stages</a><a href="tips/">Tips</a></nav>
-      <nav class="footer-col" aria-label="Support pages"><h2>Support</h2><a href="faq/">FAQ</a><a href="faq/#requirements">PC Requirements</a><a href="faq/#sources">Sources</a></nav>
-      <nav class="footer-col" aria-label="Official links"><h2>Official</h2><a href="https://store.steampowered.com/app/4570720/DragonSword__Awakening/" target="_blank" rel="noopener noreferrer">Steam Store ↗</a><a href="https://steamcommunity.com/app/4570720/allnews/" target="_blank" rel="noopener noreferrer">Steam News ↗</a></nav>
+      <nav class="footer-col" aria-label="About this site"><h2>Site</h2><a href="about/">About</a><a href="editorial-policy/">Editorial Policy</a><a href="contact/">Contact</a></nav>
+      <nav class="footer-col" aria-label="Support and policies"><h2>Support</h2><a href="faq/">FAQ</a><a href="privacy/">Privacy</a><a href="terms/">Terms</a><a href="https://steamcommunity.com/app/4570720/allnews/" target="_blank" rel="noopener noreferrer">Official Patch Notes ↗</a></nav>
     </div>
-    <div class="footer-bottom"><p>Unofficial fan guide. DragonSword: Awakening, its names and official imagery belong to Hound13 Inc.</p><span>Last verified: 29 Jul 2026</span></div>
+    <div class="footer-bottom"><p>Unofficial fan guide. DragonSword: Awakening, its names and official imagery belong to Hound13 Inc.</p><span>Last verified: 2 Aug 2026</span></div>
   </footer>
   <button class="back-to-top" type="button" aria-label="Back to top" data-top>↑</button>
   <script src="script.js"></script>

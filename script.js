@@ -100,3 +100,17 @@ if (topButton) {
   }, { passive: true });
   topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 }
+
+// Remove the advertising service worker used by the previous Monetag integration.
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      registrations.forEach((registration) => {
+        const workers = [registration.active, registration.waiting, registration.installing].filter(Boolean);
+        if (workers.some((worker) => new URL(worker.scriptURL).pathname === "/sw.js")) {
+          registration.unregister();
+        }
+      });
+    }).catch(() => {});
+  });
+}
