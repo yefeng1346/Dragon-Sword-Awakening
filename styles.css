@@ -528,6 +528,28 @@ button, summary { -webkit-tap-highlight-color: transparent; }
 .trust-card .tag { color: var(--coral); font-family: var(--mono); font-size: 9px; text-transform: uppercase; }
 .trust-card h3 { margin: 9px 0; font-family: var(--display); font-size: 24px; font-weight: 400; }
 .trust-card p { margin: 0; color: var(--muted); font-size: 15px; }
+.ad-band {
+  padding: 28px 5vw 42px;
+  border-top: 1px solid var(--line);
+  background: var(--paper-2);
+}
+.ad-shell {
+  width: min(1200px, 100%);
+  min-height: 260px;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.62);
+}
+.ad-label {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+#container-04e5b452c97d65c1c6d88c59173704a1 { min-height: 210px; }
 
 /* Inner page frame */
 .page-hero {
@@ -905,6 +927,8 @@ summary:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
   .header-tools { gap: 6px; }
   .search-toggle, .menu-toggle { width: 48px; height: 48px; }
   .section { padding: 75px 16px; }
+  .ad-band { padding: 22px 16px 32px; }
+  .ad-shell { min-height: 280px; padding: 12px; }
   .hero-copy > p:not(.eyebrow) { font-size: 18px; }
   .hero-actions { display: grid; }
   .hero-search { padding: 14px; }
