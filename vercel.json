@@ -8,7 +8,7 @@
         {"key": "X-Frame-Options", "value": "SAMEORIGIN"},
         {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
         {"key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()"},
-        {"key": "Content-Security-Policy", "value": "default-src 'self'; base-uri 'self'; connect-src 'self' https://sleepoverlimitprofound.com https://protrafficinspector.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://ep1.adtrafficquality.google; font-src 'self'; form-action 'self'; frame-ancestors 'self'; frame-src https:; img-src 'self' data: https:; object-src 'none'; script-src 'self' https://pl30657590.effectivecpmnetwork.com https://pagead2.googlesyndication.com https://*.googlesyndication.com https://*.doubleclick.net; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests"}
+        {"key": "Content-Security-Policy", "value": "default-src 'self'; base-uri 'self'; connect-src 'self' https://sleepoverlimitprofound.com https://protrafficinspector.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.adtrafficquality.google; font-src 'self'; form-action 'self'; frame-ancestors 'self'; frame-src https:; img-src 'self' data: https:; object-src 'none'; script-src 'self' https://pl30657590.effectivecpmnetwork.com https://pagead2.googlesyndication.com https://*.googlesyndication.com https://*.doubleclick.net https://*.adtrafficquality.google; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests"}
       ]
     },
     {
